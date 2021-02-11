@@ -17,3 +17,8 @@ function deleteFromObjectByKey(recipe, key) {
   delete newRecipe[key];
   return newRecipe;
 }
+
+function destructivelyDeleteFromObjectByKey(recipe, key) {
+  delete recipe[key];
+  return recipe;
+}
