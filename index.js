@@ -4,4 +4,3 @@ var recipes = {
   milk: 1 cup,
   chocolate: 1/2 cup,
 }
-
